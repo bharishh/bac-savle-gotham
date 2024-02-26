@@ -1,0 +1,58 @@
+
+/*-----RESET CSS----*/
+
+
+html{
+    font-size: 63%;
+}
+
+body{
+    font: 1.6rem sans-serif;
+    letter-spacing: .1rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+header h1{
+    text-align: center;
+      color: white;
+    margin: 0;
+    padding: 0;   
+    line-height: 8rem;  
+}
+
+section{
+    max-width: 90rem;
+    margin: 4rem auto;
+    border: solid 0.2rem ;
+    padding: 0;
+    border-radius: .8rem;
+    border-color: aliceblue;
+}
+section img{
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+    width: 100%;
+  
+}
+*{
+    box-sizing: border-box;
+}
+section li,a {
+    line-height: 3rem;
+    padding: .1rem;
+    margin: 0;
+    color: white;
+   
+}
+
+footer{
+    text-align: center;
+
+}
+
+body{
+ 
+    background: url("../asset/marc-olivier-jodoin-MJv31qXqSOU-unsplash.jpg") no-repeat fixed center center / cover;
+   
+}
