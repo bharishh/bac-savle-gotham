@@ -1,7 +1,8 @@
 # ![geting started](./favicon/scifi_batman_icon_157477.ico)```Gotham_City```
 
-![Batman](./asset/Gotham%20City.png)
 
+
+<img src="./asset/Gotham%20City.png" alt="gotham" align ="center" width="500">
 
 ![static badge](https://img.shields.io/badge/gotham-city-noir?style=for-the-badge&labelColor=%23000000&color=%23f00020)
 
