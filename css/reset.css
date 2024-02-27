@@ -48,6 +48,7 @@ section li,a {
     color: white;
     list-style: decimal;
     text-decoration: none;
+    outline: none;
 }
 section p {
     margin: 0%;
