@@ -1,6 +1,4 @@
-
 /*-----RESET CSS----*/
-
 
 html{
     font-size: 63%;
@@ -12,9 +10,10 @@ body{
     line-height: 1.6rem;
     margin: 0;
 }
-header h1{
+
+header h1,h3{
     text-align: center;
-      color: white;
+    color: white;
     margin: 0;
     padding: 0;   
     line-height: 8rem;  
@@ -22,12 +21,14 @@ header h1{
 
 section{
     max-width: 90rem;
-    margin: 4rem auto;
+    margin: 9rem auto;
     border: solid 0.2rem ;
     padding: 0;
     border-radius: .8rem;
     border-color: aliceblue;
+    color: azure;
 }
+
 section img{
     display: inline-block;
     vertical-align: middle;
@@ -35,24 +36,57 @@ section img{
     width: 100%;
   
 }
+
 *{
     box-sizing: border-box;
 }
+
 section li,a {
     line-height: 3rem;
     padding: .1rem;
     margin: 0;
     color: white;
-   
+    list-style: decimal;
+    text-decoration: none;
 }
+section p {
+    margin: 0%;
+    padding: .5rem;
+    text-align:justify;
+    line-height: 2.5rem;
 
+}
 footer{
     text-align: center;
-
+    color: aliceblue;
 }
 
-body{
+body,footer{
  
     background: url("../asset/marc-olivier-jodoin-MJv31qXqSOU-unsplash.jpg") no-repeat fixed center center / cover;
+    backdrop-filter: blur(10px) grayscale(0.2) opacity(0.6);
    
 }
+
+a:link {
+    color: #265301;
+  }
+  
+  a:visiteda{
+    color: #437a16;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background:#84840f;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #84840f;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #84840f;
+  }
