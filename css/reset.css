@@ -29,6 +29,17 @@ section{
     color: azure;
 }
 
+ 
+.h4{
+    max-width: 60rem;
+    margin: 7rem auto;
+    border: solid 0.2rem ;
+    border-radius: .8rem;
+    border-color: aliceblue;
+    color: azure;
+}
+
+
 section img{
     display: inline-block;
     vertical-align: middle;
@@ -43,10 +54,9 @@ section img{
 
 section li,a {
     line-height: 3rem;
-    padding: .1rem;
-    margin: 0;
+    padding: .2rem;
+    margin: 0.5rem;
     color: white;
-    list-style: decimal;
     text-decoration: none;
     outline: none;
 }
@@ -91,3 +101,10 @@ a:link {
     background: #265301;
     color: #84840f;
   }
+
+  #colorbgdiv{
+    background-color: #38383f;
+    display: flex;
+    justify-content: space-between;
+    
+}
