@@ -28,9 +28,9 @@
   h6,
   p,
   a,
-  figure,blockquote,ol,ul{
+  figure,blockquote,ol{
     margin: 0;
-    list-style-type: none;
+    list-style-type: decimal;
 
   }
 

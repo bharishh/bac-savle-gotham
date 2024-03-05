@@ -7,6 +7,8 @@
 --licorice: #1e191aff;
 --silver: #ada9a9ff;
 --jet: #302f2fff;
+--color-title:#fafafafa;
+
 }
 
 header,
@@ -15,6 +17,8 @@ main,
 footer{
     max-width: 120rem;
     margin: 0 auto;
+    background-color:var(--timberwolf);
+    padding: 0 1rem;
 }
 
 div.picture img{
@@ -26,6 +30,7 @@ div.picture img{
 }
 section p{
     text-align: justify;
+    padding: 1.5rem 0;
 }
 
 footer p{
@@ -34,11 +39,28 @@ footer p{
 
 header h1,section h2, nav h2{
     line-height: 7rem;
+
 }
 
+nav ol{
+    line-height: 3rem;
+    padding: 1rem 0;
+    padding-left: 2rem;
+    list-style-type: decimal;
+}
+nav ol *{
+    color: var(--licorice);
+}
 
 
 section h2, nav h2{
     text-transform: capitalize;
     font-size: x-large;
+    background-color: var(--color-title);
+    padding-left: 1rem;
+    box-shadow: 0 .3rem 0 var(--silver);
+}
+
+section h2,h1{
+    text-align: center;
 }
