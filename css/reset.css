@@ -29,3 +29,7 @@
   figure,blockquote,ol,ul{
     margin: 0;
   }
+
+  body{
+    background:url("./asset/ishan-seefromthesky-6U-sSfBV-gM-unsplash.jpg");
+  }
