@@ -28,8 +28,9 @@
   a,
   figure,blockquote,ol,ul{
     margin: 0;
+    text-align: center;
   }
 
   body{
-    background:url("./asset/ishan-seefromthesky-6U-sSfBV-gM-unsplash.jpg");
+    background:url("../asset/ishan-seefromthesky-6U-sSfBV-gM-unsplash.jpg") no-repeat fixed center center / cover;
   }
