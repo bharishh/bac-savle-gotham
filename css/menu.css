@@ -1,0 +1,7 @@
+@import url(./reset.css);
+p a img{
+    
+    position: absolute;
+    bottom: 5rem;
+    right: 0 ;  
+}
