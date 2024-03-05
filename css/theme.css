@@ -35,6 +35,10 @@ section p{
 
 footer p{
     text-align: center;
+    color: var(--licorice);
+}
+footer *{
+    color: var(--licorice);
 }
 
 header h1,section h2, nav h2{
