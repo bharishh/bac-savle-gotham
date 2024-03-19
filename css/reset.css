@@ -4,6 +4,7 @@
     font-size: 62.5%; /* 1rem = 10px */
     box-sizing: border-box;
     scroll-behavior: smooth;
+    background:url("../asset/ishan-seefromthesky-6U-sSfBV-gM-unsplash.jpg") no-repeat fixed center center / cover;
   }
 
   *,*::before, *::after{
@@ -36,8 +37,4 @@
 
   *{
     text-decoration: none;
-  }
-
- body{
-    background:url("../asset/ishan-seefromthesky-6U-sSfBV-gM-unsplash.jpg") no-repeat fixed center center / cover;
   }

@@ -68,3 +68,7 @@ section h2, nav h2{
 section h2,h1{
     text-align: center;
 }
+
+.bg-info:target{
+    background-color: var(--jet);
+}
